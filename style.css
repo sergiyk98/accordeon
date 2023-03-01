@@ -1,0 +1,35 @@
+.accordeon {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+
+}
+
+.accordeon__item_title {
+   padding: 10px;
+   background-color: #b5afaf;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+}
+
+.accordeon__item_title_text {
+   padding: 8px;
+   border-left: 1px solid #000;
+   border-bottom: 1px solid #000;
+   border-right: 1px solid #000;
+   display: none;
+}
+
+.show {
+   display: block;
+}
+
+.fa-arrow-down {
+   transition: .3s all;
+}
+
+.rotate {
+   transform: rotate(180deg);
+}
